@@ -1,0 +1,108 @@
+baseurl = ""
+languageCode = "en-us"
+title = "Sridhar Music Institute"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at http://fontawesome.io/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more information take a look at the README.
+
+	# To provide some metadata for search engines feel free to add some
+	# information about you and your website.
+	name = "Your name"
+	description = "Your description"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Sridhar Music Institute"
+    logo = "logo.ico"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Classes"
+			portfolio = ""
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Sridhar Music Institute"
+		subtitle   = "Since 1972"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "About the Founder"
+		description = "Steves Unknowns captivating audiences in their journey of great musical performances, and still savoring it in its purest sense is a band engraved in the annals of Bangalore’s music vault, deep in its tradition and history. <br><br> The band name by founder – Sridhar Stephen Joseph aka Steve – speaks for itself, as he goes down memory-lane recalling the birth of the name. “Once upon a time, backstage, preparing to come-on for the first time as a band, when the announcer interrupted me, demanding a band name. I paused for a moment, thinking deep – my mind was absolutely blank, regarding names–I was only thinking about the set list, not a band name in sight yet, it dawned on me the importance of this situation, we looked at each other, still no band name?We could not go unknown to the audience…the word Unknown for some strange reason echoed in my head, in-fact I’ve always believed I’m Unknown and from a deeper sense, I replied with ease, we are “The Unknowns”. <br><br> Since then, through glorious years of performing in and around India, as-well-as various parts of the world, until the band sang its final swan song, The Unknowns have jammed to the tune of many a versatile ear, be it fans of Rock N’Roll, Hard Rock, Heavy Metal, Blues, Fusion, Pop to those ardent Indian Raga fans–lashing out music in their trademark style, improvising western feel with strong Indian roots, leaving audiences moving and grooving to The Unknowns–who were not just a band, but a band of brothers! "
+		buttonText  = ""
+
+
+	# Service section
+	[params.services]
+		headline = "SMI specializes in Guitar classes, Drums classes and Keyboard classes. Our experienced faculty will guide you through your musical journey."
+
+		        [[params.services.list]]
+		            icon = ""
+		            title = ""
+		            description = ""
+
+		        [[params.services.list]]
+					icon = ""
+					title = ""
+					description = ""
+
+				[[params.services.list]]
+		            icon = ""
+		            title = ""
+		            description = ""
+
+		        [[params.services.list]]
+		            icon = ""
+		            title = ""
+		            description = ""
+
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Get in touch!"
+
+		[params.aside.button]
+			text = "sridharmusicinstitute@gmail.com"
+			link = "sridharmusicinstitute@gmail.com"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "<h3> Sridhar Music Institute</h3> <br> 17/ 1 Cambridge Road Ulsoor <br> Bangalore, India"
+		phone = "+91 819 775 4070 or +91 984 505 3648"
+		email = "sridharmusicinstitute@gmail.com"
+
+	# Google Maps section
+	 [params.location]
+	 	latitude  = "12.9708658"
+	 	longitude = "77.6256478"
+	 	maps_api_key = ""
