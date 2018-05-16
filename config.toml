@@ -2,7 +2,7 @@ baseurl = ""
 languageCode = "en-us"
 title = "Sridhar Music Institute"
 theme = "hugo-creative-theme"
-googleAnalytics = ""
+googleAnalytics = "UA-107061956-1"
 
 [params]
 
