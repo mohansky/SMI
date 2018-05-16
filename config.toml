@@ -102,7 +102,7 @@ googleAnalytics = "UA-107061956-1"
 		email = "sridharmusicinstitute@gmail.com"
 
 	# Google Maps section
-	 [params.location]
-	 	latitude  = "12.9708658"
-	 	longitude = "77.6256478"
-	 	maps_api_key = ""
+	 #[params.location]
+	 	#latitude  = "12.9708658"
+	 	#longitude = "77.6256478"
+	 	#maps_api_key = ""
