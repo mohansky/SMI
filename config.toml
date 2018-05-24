@@ -43,7 +43,7 @@ googleAnalytics = "UA-107061956-1"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Sridhar Music Institute"
-		subtitle   = "Since 1972"
+		subtitle   = "Since 1978"
 		buttonText = "Find out more"
 
 
