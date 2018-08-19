@@ -10,7 +10,7 @@
                     <hr class="light">
                 {{ end }}
                 {{ with .Site.Params.about.description }}
-                    <p class="text-faded">{{ . | markdownify }}</p>
+                    <h6 class="text-faded">{{ . | markdownify }}</h6>
                 {{ end }}
                 {{ with .Site.Params.about.buttonText }}
                     <a href="#" class="btn btn-default btn-xl">{{ . }}</a>
