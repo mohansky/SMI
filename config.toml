@@ -92,7 +92,7 @@ googleAnalytics = "UA-107061956-1"
 
 		[params.aside.button]
 			text = "sridharmusicinstitute@gmail.com"
-			link = "sridharmusicinstitute@gmail.com"
+			link = "mailto:sridharmusicinstitute@gmail.com"
 
 	# Contact section
 	[params.contact]
