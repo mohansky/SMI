@@ -33,7 +33,7 @@ googleAnalytics = "UA-107061956-1"
     logo = "logo.ico"
 
 		[params.navigation.links]
-			about     = "About"
+			about     = " "
 			services  = "Classes"
 			portfolio = ""
 			contact   = "Contact"
